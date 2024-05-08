@@ -1,4 +1,4 @@
-
+/* Resetting default margin and padding */
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +8,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
-    margin: 0; 
+    margin: 0; /* Reset body margin */
 }
 
 header {
@@ -26,14 +26,14 @@ main {
 }
 
 .cat-section {
-    flex: 1 0 calc(30% - 20px); 
+    flex: 1 0 calc(33.333% - 20px); /* Each section takes up to 33.333% of the available space with a margin */
     background-color: #dee2e6;
     margin-bottom: 20px;
     padding: 20px;
 }
 
 .form-section {
-    flex: 1 0 100%; 
+    flex: 1 0 100%; /* Form section takes full width */
     background-color: #ced4da;
     padding: 20px;
 }
@@ -43,6 +43,6 @@ main {
         flex-direction: column;
     }
     .cat-section, .form-section {
-        flex: 1 0 100%; 
+        flex: 1 0 100%; /* Each section takes full width on smaller screens */
     }
 }
