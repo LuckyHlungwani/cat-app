@@ -1,48 +1,26 @@
-/* Resetting default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
-    margin: 0; /* Reset body margin */
+    background-color: #5199c4;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
-header {
-    background-color: #343a40;
-    color: white;
-    padding: 20px;
-    text-align: center;
+.cat {
+    background-color: rgb(223, 236, 100);
+    margin: 0.5em;
+    padding: 1em;
+    border-radius: #5827e0;
+    border: 1px solid #e02727;
+    flex: 1;
 }
-
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 20px;
-}
-
-.cat-section {
-    flex: 1 0 calc(33.333% - 20px); /* Each section takes up to 33.333% of the available space with a margin */
-    background-color: #dee2e6;
-    margin-bottom: 20px;
-    padding: 20px;
-}
-
-.form-section {
-    flex: 1 0 100%; /* Form section takes full width */
-    background-color: #ced4da;
-    padding: 20px;
-}
-
-@media screen and (max-width: 960px) {
-    main {
-        flex-direction: column;
+@media (min-width : 960px) {
+    .cats {
+        display: flex;
     }
-    .cat-section, .form-section {
-        flex: 1 0 100%; /* Each section takes full width on smaller screens */
-    }
+}
+fieldset {
+    margin: 1em;
+    border: 0;
+}
+button {
+    padding: 1em;
+    border: 3px solid;
+    border-radius: 0.5em;
 }
