@@ -1,14 +1,16 @@
 body {
-    background-color: #5199c4;
+    background-color: #3E8914;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cat {
-    background-color: rgb(223, 236, 100);
+    background-color: #3DA35D;
     margin: 0.5em;
     padding: 1em;
     border-radius: #5827e0;
-    border: 1px solid #e02727;
+    border: 1px solid black;
     flex: 1;
+    border: 1px solid #4CAF50
+    
 }
 @media (min-width : 960px) {
     .cats {
@@ -23,4 +25,5 @@ button {
     padding: 1em;
     border: 3px solid;
     border-radius: 0.5em;
+    
 }
