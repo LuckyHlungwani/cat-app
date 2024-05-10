@@ -1,5 +1,5 @@
 body {
-    background-color: #142689;
+    background-color: #abb2da;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .cat {
@@ -8,12 +8,12 @@ body {
     padding: 0.5em;
     border-radius: #e02727;
     border: 2px solid black;
-    flex: 1;
+    flex: 2px;
     border: 1px solid #4CAF50;
-    margin-left: 0em;
-    margin-bottom: 0.5em;
+    
+    margin-bottom: 1em;
 }
-@media (min-width : 760px) {
+@media (min-width : 960px) {
     .cats {
         display: flex;
     }
