@@ -13,11 +13,11 @@ body {
     
     margin-bottom: 1em;
 }
-@media (min-width : 960px) {
+/*@media (min-width : 960px) {
     .cats {
         display: flex;
     }
-}
+}*/
 fieldset {
     margin: 1em;
     border: 0;
@@ -28,4 +28,8 @@ button {
     border-radius: 0.5em;
     
 }
-
+@media (min-width : 760px) {
+    .cats {
+        display: flex;
+    }
+}
